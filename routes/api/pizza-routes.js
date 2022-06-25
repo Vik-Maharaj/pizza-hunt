@@ -13,4 +13,13 @@ router
   .put()
   .delete();
 
+  const {
+    getAllPizza,
+    getPizzaById,
+    createPizza,
+    updatePizza,
+    deletePizza
+  } = require('../../controllers/pizza-controller');
+
 module.exports = router;
+
