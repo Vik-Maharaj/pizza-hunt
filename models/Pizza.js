@@ -18,6 +18,12 @@ const PizzaSchema = new Schema({
   toppings: []
 });
 
+comments: [
+    {
+      type: String,
+    }
+  ]
+
 const Pizza = model('Pizza', PizzaSchema);
 
 module.exports = Pizza;
